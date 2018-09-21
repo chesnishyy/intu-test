@@ -1,0 +1,13 @@
+@import "constants";
+
+.start-button-container {
+  background-color: $start-button;
+  border-radius: 50%;
+  padding: 2px;
+
+  .start-button {
+    background-color: $start-button;
+    color: $start-button-text;
+    border: 2px solid $app-background;
+  }
+}

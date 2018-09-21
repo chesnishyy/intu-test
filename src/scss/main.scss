@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+@import "stopwatch";
+@import "display";
+@import "control_buttons";
+@import "start_button";
+@import "reset_button";
+@import "lap_button";
+@import "stop_button";
+@import "lap_list";
+@import "lap";

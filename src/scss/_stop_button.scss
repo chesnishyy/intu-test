@@ -1,0 +1,13 @@
+@import "constants";
+
+.stop-button-container {
+  background-color: $stop-button;
+  border-radius: 50%;
+  padding: 2px;
+
+  .stop-button {
+    background-color: $stop-button;
+    color: $stop-button-text;
+    border: 2px solid $app-background;
+  }
+}
